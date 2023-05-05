@@ -14,9 +14,26 @@
   max-width: $grid;
 }
 
-.row-3-col {
+.row-3 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6rem;
+  grid-template-columns: repeat(3, 1fr);
+  /* background-color: #eee; */
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+.u-margin-top-big {
+  margin-top: 8rem;
+}
+.u-margin-top-huge {
+  margin-top: 10rem;
+}
+
+.row-downflex {
+  display: grid;
+  grid-template-rows: 1fr 0;
   margin: 0 auto;
   gap: $gutter-horizontal;
   max-width: $grid;

@@ -38,3 +38,11 @@
   gap: $gutter-horizontal;
   max-width: $grid;
 }
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  gap: $gutter-horizontal;
+  max-width: $grid;
+}

@@ -18,7 +18,6 @@
   display: grid;
   gap: 6rem;
   grid-template-columns: repeat(3, 1fr);
-  /* background-color: #eee; */
   max-width: 114rem;
   margin: 0 auto;
   margin-bottom: 8rem;
@@ -33,16 +32,19 @@
 
 .row-downflex {
   display: grid;
-  grid-template-rows: 1fr 0;
+  grid-template-rows: 1fr 1;
   margin: 0 auto;
   gap: $gutter-horizontal;
   max-width: $grid;
 }
 
-.row {
+.row-book {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0 auto;
   gap: $gutter-horizontal;
   max-width: $grid;
+}
+
+.row-footer {
 }

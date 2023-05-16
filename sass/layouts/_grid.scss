@@ -4,6 +4,12 @@
   margin: 0 auto;
   gap: $gutter-horizontal;
   max-width: $grid;
+
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 50rem;
+  }
 }
 
 .row-4-col {
@@ -12,6 +18,12 @@
   margin: 0 auto;
   gap: $gutter-horizontal;
   max-width: $grid;
+
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    gap: $gutter-vertical-small;
+    max-width: 50rem;
+  }
 }
 
 .row-3 {
@@ -21,6 +33,12 @@
   max-width: 114rem;
   margin: 0 auto;
   margin-bottom: 8rem;
+
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    gap: $gutter-vertical-small;
+    max-width: 50rem;
+  }
 }
 
 .u-margin-top-big {
@@ -36,6 +54,12 @@
   margin: 0 auto;
   gap: $gutter-horizontal;
   max-width: $grid;
+
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 50rem;
+  }
 }
 
 .row-book {
@@ -44,7 +68,10 @@
   margin: 0 auto;
   gap: $gutter-horizontal;
   max-width: $grid;
-}
 
-.row-footer {
+  @include respond(tab-port) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 50rem;
+  }
 }
